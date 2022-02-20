@@ -1,0 +1,12 @@
+#!/usr/bin/env zsh
+
+COMPOSERHOMEDIR=$(composer -n config --global home)
+PUCONFIG=$COMPOSERHOMEDIR/vendor/jascha030/php-cs-config
+
+if [[ -d $PUCONFIG ]]
+then
+  cp "$PUCONFIG/phpunit.xml" "$PWD/phpunit.xml"
+fi
+
+exit 0;
+
