@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 COMPOSERHOMEDIR=$(composer -n config --global home)
-PUCONFIG=$COMPOSERHOMEDIR/vendor/jascha030/php-cs-config
+PUCONFIG=$COMPOSERHOMEDIR/vendor/jascha030/phpunit-config
 
 if [[ -d $PUCONFIG ]]
 then
