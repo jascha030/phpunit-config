@@ -1,0 +1,15 @@
+{
+    "name": "jascha030/phpunit-config",
+    "description": "Personal PHPUnit default config.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jascha030",
+            "email": "contact@jaschavanaalst.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
