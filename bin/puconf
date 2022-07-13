@@ -5,7 +5,7 @@ PUCONFIG=$COMPOSERHOMEDIR/vendor/jascha030/phpunit-config
 
 if [[ -d $PUCONFIG ]]
 then
-  cp "$PUCONFIG/phpunit.xml" "$PWD/phpunit.xml"
+  cp "$PUCONFIG/.phpunit.dist.xml" "$PWD/.phpunit.dist.xml"
 fi
 
 exit 0;
